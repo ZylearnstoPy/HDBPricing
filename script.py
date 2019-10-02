@@ -14,3 +14,4 @@ print(raw_data.describe())
 #Step 3: For simplicity's sake, I've selected only a few columns from the raw data as variables to predict the resale price. `
 df = raw_data[['town', 'flat_type','storey_range', 'floor_area_sqm', 'flat_model', 'remaining_lease', 'resale_price']]
 
+print('hello again')
